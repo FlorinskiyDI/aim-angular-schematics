@@ -1,13 +1,14 @@
 {
   "name": "super-ui-lib2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "build": "tsc -p tsconfig.schematics.json",
     "postbuild": "copyfiles schematics/collection.json ../../dist/super-ui-lib/"
   },
   "publishConfig": {
     "registry": "http://localhost:4873"
-  },
+  },  
+  "schematics": "./schematics/collection.json",
   "peerDependencies": {
     "@angular/common": "^19.0.0",
     "@angular/core": "^19.0.0"
