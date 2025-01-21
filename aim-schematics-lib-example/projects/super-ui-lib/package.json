@@ -1,6 +1,6 @@
 {
   "name": "super-ui-lib2",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "build": "tsc -p tsconfig.schematics.json",
     "postbuild": "copyfiles schematics/collection.json ../../dist/super-ui-lib/"
