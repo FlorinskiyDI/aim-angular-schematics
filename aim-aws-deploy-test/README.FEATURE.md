@@ -8,3 +8,5 @@
 1) add schematics command
     > ng add  @aim/aws-deploy --registry http://localhost:4873/
 
+2) or we can run specific schematics by this command
+    > schematics ../aim-aws-deploy/dist/library/schematics/collection.json:ng-add --dry-run true 
