@@ -1,6 +1,6 @@
 {
   "name": "@aim/aws-deploy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "build": "tsc -p tsconfig.schematics.json",
     "postbuild": "copyfiles --all \"schematics/collection.json\" \"schematics/main/*/schema.json\" \"schematics/{configs,main}/*/files/**\" \"schematics/components/**/*\" ../dist/library"
