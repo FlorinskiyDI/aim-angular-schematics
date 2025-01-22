@@ -95,6 +95,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@aim/aws-deploy:deploy"
         }
       }
     }

@@ -3,7 +3,8 @@
     "schematics": {
       "ng-add": {
         "description": "Add Angular Schematics to the project",
-        "factory": "./main/ng-add/index#ngAdd"
+        "factory": "./main/ng-add/index#ngAdd",
+        "schema": "./main/ng-add/schema.json"        
       }
     }
   }

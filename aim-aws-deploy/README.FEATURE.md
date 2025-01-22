@@ -23,6 +23,9 @@
 4) publish. publishing process should be from folder dist!!!
     > npm publish --registry http://localhost:4873/
 
-*step 4* add ng-add and setup all needed configurations for schemantics.
+**step 4** add ng-add and setup all needed configurations for schemantics.
 1) for some step we need to use utility - copyfiles. so we can install it in project by command:
     > npm install copyfiles --save-dev
+
+**step 5** add ng-ad
+1) implement logic that will add a custom "deploy" target to the angular.json configuration.
