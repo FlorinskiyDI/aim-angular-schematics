@@ -97,7 +97,11 @@
           }
         },
         "deploy": {
-          "builder": "@aim/aws-deploy:deploy"
+          "builder": "@aim/aws-deploy:deploy",
+          "options": {
+            "deleteBeforeUpload": true,
+            "sourceFolder": "browser"
+          }
         }
       }
     }
