@@ -43,3 +43,9 @@
     - (root) > npm run build
     - (library) > npm run build
     - (dist/<folder>) > npm publish --registry http://localhost:4873/
+
+*Usseful resources*
+
+    - Angular Schematics — Implementing NG-ADD support for Libraries (advanced) - https://www.youtube.com/watch?v=MVqVBbM_gvw&list=LL&index=13
+    - example - https://github.com/Jefiozie/ngx-aws-deploy- 
+    - angular schematics doc - https://angular.dev/tools/cli/schematics-for-libraries#creating-a-schematics-collection
