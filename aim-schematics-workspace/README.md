@@ -1,1 +1,0 @@
-https://github.com/sonusathyadas/angular-schematics/tree/main
