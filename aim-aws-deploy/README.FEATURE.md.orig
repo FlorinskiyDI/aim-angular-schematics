@@ -1,9 +1,9 @@
-*Tasks*
 
 **step 1** create workspace
 
 1) created angular workspace with command
     > ng new <workspace-name> --no-create-application
+
 
 **step 2** create project library.
 
@@ -27,19 +27,13 @@
 1) for some step we need to use utility - copyfiles. so we can install it in project by command:
     > npm install copyfiles --save-dev
 
-**step 5** update ng-ad to set custom "deploy" target
+<<<<<<< Updated upstream
+**step 5** add ng-ad
 1) implement logic that will add a custom "deploy" target to the angular.json configuration.
+=======
+**step 4** add ng-ad
 
-**step 6** implement builder and deployer logic
+**step 5** add builder
 1) add library 
-    - (library) > npm install --save-dev @types/node
-    - (library) > npm install --save-dev @aws-sdk/client-s3
-    - (library) > npm install --save-dev @aws-sdk/client-cloudfront
-
-*Deploy*
-
-1) run scripts for publishing our package to verdaccio package manager.
-    - (root) > verdaccio
-    - (root) > npm run build
-    - (library) > npm run build
-    - (dist/<folder>) > npm publish --registry http://localhost:4873/
+    > npm install --save-dev @types/node
+>>>>>>> Stashed changes

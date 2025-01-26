@@ -1,0 +1,10 @@
+{
+    "builders": {
+      "deploy": {
+        "implementation": "./main/deploy",
+        "schema": "./main/deploy/schema.json",
+        "description": "Deploy to AWS S3."
+      }
+    }
+  }
+  
